@@ -1,7 +1,7 @@
 
 The readme file. 
 
-This is an exercise to become familiar with migurski's high-roads. 
+This is an exercise to become familiar with migurski's high-roads, and SQL Views.
 
 What's unique to this, compared to his high-roads, is that I intend to have more than just '3' levels, in fact, I plan to have about 7 or so, based on Openstreetmap's taxonomy 
 [in the USA], so there'll be:
@@ -15,4 +15,4 @@ service
 
 
 
-Right now, this is in its infancy stages
+Right now, this is in its infancy stages and only has migurski's 3 levels.
