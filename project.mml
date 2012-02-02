@@ -6,9 +6,9 @@
     41.606
   ],
   "center": [
-    -81.66682720184326,
-    41.4859566270972,
-    16
+    -81.69463634490945,
+    41.45053318965924,
+    18
   ],
   "format": "png",
   "interactivity": false,
@@ -32,48 +32,30 @@
     },
     {
       "geometry": "linestring",
-      "name": "z14-roads",
-      "id": "z14-roads",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "roads",
-      "Datasource": {
-        "table": "planet_osm_line_z14",
-        "key_field": "",
-        "geometry_field": "",
-        "extent": "",
-        "type": "postgis",
-        "dbname": "thecleve-hr",
-        "host": "localhost",
-        "user": "skorasaurus",
-        "password": "yessem"
-      }
-    },
-    {
-      "geometry": "linestring",
-      "name": "z13-roads",
-      "id": "z13-roads",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "roads",
-      "Datasource": {
-        "table": "planet_osm_line_z13",
-        "key_field": "",
-        "geometry_field": "",
-        "extent": "",
-        "type": "postgis",
-        "dbname": "thecleve-hr",
-        "host": "localhost",
-        "user": "skorasaurus",
-        "password": "yessem"
-      }
-    },
-    {
-      "geometry": "linestring",
       "name": "z15plus-roads",
       "id": "z15plus-roads",
       "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
       "class": "roads",
       "Datasource": {
         "table": "planet_osm_line_z15plus",
+        "key_field": "",
+        "geometry_field": "",
+        "extent": "",
+        "type": "postgis",
+        "dbname": "thecleve-hr",
+        "host": "localhost",
+        "user": "skorasaurus",
+        "password": "yessem"
+      }
+    },
+    {
+      "geometry": "linestring",
+      "name": "z11-roads",
+      "id": "z11-roads",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "class": "roads",
+      "Datasource": {
+        "table": "planet_osm_line_z11",
         "key_field": "",
         "geometry_field": "",
         "extent": "",
