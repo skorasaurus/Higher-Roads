@@ -6,14 +6,14 @@
     41.606
   ],
   "center": [
-    -81.69423937797521,
-    41.446466044274906,
-    16
+    -81.7148,
+    41.4551,
+    18
   ],
   "format": "png",
   "interactivity": false,
   "minzoom": 11,
-  "maxzoom": 18,
+  "maxzoom": 19,
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss",
@@ -63,82 +63,13 @@
         "dbname": "thecleve-hr",
         "host": "localhost",
         "user": "skorasaurus",
-        "password": "yessem"
-      }
-    },
-    {
-      "geometry": "linestring",
-      "name": "z14-roads",
-      "id": "z14-roads",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "roads",
-      "Datasource": {
-        "table": "planet_osm_line_z14",
-        "key_field": "",
-        "geometry_field": "",
-        "extent": "",
-        "type": "postgis",
-        "dbname": "thecleve-hr",
-        "host": "localhost",
-        "user": "skorasaurus",
-        "password": "yessem"
-      }
-    },
-    {
-      "geometry": "linestring",
-      "name": "z13-roads",
-      "id": "z13-roads",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "roads",
-      "Datasource": {
-        "table": "planet_osm_line_z13",
-        "key_field": "",
-        "geometry_field": "",
-        "extent": "",
-        "type": "postgis",
-        "dbname": "thecleve-hr",
-        "host": "localhost",
-        "user": "skorasaurus",
-        "password": "yessem"
-      }
-    },
-      {
-      "geometry": "linestring",
-      "name": "z12-roads",
-      "id": "z12-roads",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "roads",
-      "Datasource": {
-        "table": "planet_osm_line_z12",
-        "key_field": "",
-        "geometry_field": "",
-        "extent": "",
-        "type": "postgis",
-        "dbname": "thecleve-hr",
-        "host": "localhost",
-        "user": "skorasaurus",
-        "password": "yessem"
-      }
-    },
-        {
-      "geometry": "linestring",
-      "name": "z10-roads",
-      "id": "z10-roads",
-      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-      "class": "roads",
-      "Datasource": {
-        "table": "planet_osm_line_z10",
-        "key_field": "",
-        "geometry_field": "",
-        "extent": "",
-        "type": "postgis",
-        "dbname": "thecleve-hr",
-        "host": "localhost",
-        "user": "skorasaurus",
-        "password": "yessem"
+        "password": "yessem",
+        "id": "z11-roads",
+        "project": "thecleve-hr",
+        "srs": null
       }
     }
-    ],
+  ],
   "description": "",
   "attribution": "",
   "legend": "",
