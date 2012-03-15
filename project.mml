@@ -68,6 +68,25 @@
         "project": "thecleve-hr",
         "srs": null
       }
+    },
+    {
+      "geometry": "linestring",
+      "Datasource": {
+        "type": "postgis",
+        "table": "planet_osm_line_z12",
+        "extent": "",
+        "key_field": "",
+        "geometry_field": "",
+        "dbname": "thecleve-hr",
+        "host": "localhost",
+        "user": "skorasaurus",
+        "password": "yessem"
+      },
+      "id": "z12-roads",
+      "class": "roads",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "name": "z12-roads"
     }
   ],
   "description": "",
